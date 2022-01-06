@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EIIN SIM</string>
+    <string name="strTop">"সি কিউ উত্তর পত্র"</string>
+    <string name="strMid">"এম সি কিউ উত্তরপত্র"</string>
+    <string name="strHE">"প্রধান পরীক্ষক"</string>
+    <string name="takePict">"স্ক্যান করুন"</string>
+    <string name="back">"পিছনে যান"</string>
+    <string name="MainMas">"This is a test"</string>
+    <string name="FlashOn">"অন"</string>
+    <string name="FlashOff">"অফ"</string>
+    <string name="Flash">"ফ্লাশ লাইট"</string>
+    <string name="instructions1">"১. আপনার মোবাইল/ট্যাব -এর ক্যামেরাটি আবেদনপত্রের 'QR-Code'-এর উপর স্থাপন করুন।"</string>
+    <string name="instructions2">"২. 'স্ক্যান করুন' বাটনে চাপ দিন।"</string>
+    <string name="instructions3">"৩. QR-code স্ক্যান সম্পন্ন হলে, নতুন স্ক্রীনে আবেদন সঙ্ক্রান্ত তথ্য আসবে।"</string>
+    <string name="instructions4">"৪. এই তথ্যের সাথে আবেদনপত্রের তথ্য মিলিয়ে নিন।"</string>
+    <string name="done_message">"স্ক্যান সম্পন্ন হয়েছে"</string>
+    <string name="wrong_scan_message">"'QR-Code' থেকে তথ্য যাচাই সম্ভব হয়নি। পুনরায় 'QR-Code' স্ক্যান করুন।"</string>
+    <string name="totalScanText">"স্ক্যানকৃত বান্ডেল সংখ্যা"</string>
+    <string name="copyright">© 2021 Ministry of Education, All rights reserved.</string>
+    <string name="poweredBy">Powered by MBCC</string>
+    <string name="splashTitle1">"সিম উত্তোলনের "</string>
+    <string name="splashTitle2">"আবেদন যাচাই "</string>
+    <string name="splashSubTitle">"বাংলাদেশ মাদ্রাসা শিক্ষা বোর্ড "</string>
+    <string name="splashVersionInfo">version 1.0.4</string>
+</resources>

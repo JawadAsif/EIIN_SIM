@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faefe6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#faefe6"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:text="সিম উত্তোলনের আবেদন যাচাই"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="#e3a578">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@android:color/white"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/instructions1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="#e3a578">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@android:color/white"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/instructions2"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="#e3a578">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@android:color/white"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/instructions3"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="#e3a578">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@android:color/white"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/instructions4"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+
+
+
+
+        <Button
+            android:id="@+id/scan_btn"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#007bff"
+            android:bottomLeftRadius="3dp"
+            android:bottomRightRadius="3dp"
+            android:text="@string/takePict"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:topLeftRadius="3dp"
+            android:topRightRadius="3dp" />
+
+        <TextView
+            android:id="@+id/scanInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/body"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:id="@+id/copyrightInfo"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:paddingLeft="16dp"-->
+<!--            android:paddingTop="20dp"-->
+<!--            android:paddingRight="20dp"-->
+<!--            android:paddingBottom="5dp"-->
+<!--            android:text="@string/copyright"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="15sp" />-->
+        <TextView
+            android:id="@+id/poweredByInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="00dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp"
+            android:text="@string/poweredBy"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>
